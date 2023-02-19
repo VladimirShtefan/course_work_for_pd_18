@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-12-2"
+version = "0.1.0"
+description = ""
+authors = ["VladmimirShtefan <shtefanvladimir14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.5"
+python-dotenv = "^0.21.1"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+coverage = "^7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
