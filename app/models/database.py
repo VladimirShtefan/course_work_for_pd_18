@@ -21,7 +21,7 @@ class Data:
     @staticmethod
     def _get_operation_list(operations: list[dict]) -> list[Operation]:
         operations_list: list[Operation] = []
-        for iteration, operation in enumerate(operations):
+        for iteration, operation in enumerate(operations, start=1):
             try:
                 operations_list.append(Operation(**operation))
             except ValidationError:
